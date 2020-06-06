@@ -1,0 +1,263 @@
+.dropdown-item {
+  color: lightgrey;
+}
+.dropdown-menu {
+  background-color: gray;
+}
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+#header {
+  height: 70vh;
+  background-image: url("/img/bg_triangle.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: -4%;
+}
+.navbar {
+  background-color: #979797 !important;
+}
+.navbar a {
+  color: whitesmoke;
+}
+.navbar-brand {
+  padding-left: 5%;
+  letter-spacing: 5px;
+}
+.junior-text {
+  line-height: 20px;
+  letter-spacing: 5px;
+  color: whitesmoke;
+  text-shadow: 1px 1px 0 rgb(177, 175, 175);
+  font-weight: bolder;
+  margin: auto 0;
+  padding: 9% 0 0 1%;
+}
+.my_ph {
+  width: 36%;
+  padding-top: 4%;
+}
+
+#about_me {
+  height: 70vh;
+}
+
+.rectangle {
+  width: 80%;
+  margin: 0 auto;
+  background-color: #f2f2f2;
+  box-shadow: 5px 5px 0 #ffee00;
+}
+#traits {
+  position: relative;
+}
+.trait-icon {
+  margin: 3% 45% 5% 45%;
+}
+.trait-title {
+  text-align: center;
+  margin-bottom: 0;
+  font-size: 10pt;
+  font-weight: 900;
+  color: rgb(49, 49, 49);
+  line-height: 15px;
+}
+.trait_text {
+  background-color: lightgray;
+  font-size: small;
+  padding: 5% 10%;
+  position: absolute;
+  margin-top: -6%;
+}
+.trait-desc {
+  font-size: 12pt;
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
+  margin-top: -10px;
+  padding-bottom: 5%;
+}
+.dots {
+  padding-top: -10px;
+}
+.trait_desc_open {
+  font-size: 7pt;
+  text-align: justify;
+  width: 70%;
+  margin: 0 auto;
+  padding-bottom: 5%;
+}
+.pr_solv {
+  width: 25px;
+}
+/* .magnifier {
+  position: absolute;
+  border: 2px solid black;
+  border-radius: 50%;
+  cursor: none;
+  width: 70px;
+  height: 70px;
+} */
+.email_img {
+  width: 700px;
+  margin: 0 auto;
+  position: absolute;
+  z-index: -1;
+}
+.email_text {
+  margin: 0 auto;
+  margin-top: 10%;
+  background: url(/img/mail.png) center no-repeat;
+  background-size: 100% 100%;
+  color: rgb(202, 199, 199);
+  height: 550px;
+  width: 800px;
+  position: relative;
+  z-index: 2;
+  font-size: 15px;
+  box-shadow: 35px 35px 0#ffee00;
+}
+
+.to {
+  padding-top: 6%;
+}
+.subject {
+  padding-top: 3.9%;
+  padding-left: 5%;
+}
+.about_me_text {
+  padding-top: 1%;
+}
+.text_email {
+  width: 700px;
+}
+.skills_text {
+  position: relative;
+  color: #d3d3d3;
+  text-shadow: 4px 4px 0 rgb(87, 87, 87);
+  font-family: Bangers;
+  font-size: 70px;
+  z-index: 5;
+  margin-top: -100px;
+  margin-bottom: 0;
+  width: 100%;
+}
+.dash {
+  width: 50%;
+  margin: 0 auto;
+}
+.skills {
+  position: relative;
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 20px;
+  height: 100px;
+}
+.horiz_scroll {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+.skill_pic {
+  display: inline-block;
+}
+.skill_pic img {
+  height: 60px;
+  margin-right: 15px;
+}
+.projects_text {
+  color: #d3d3d3;
+  background-image: url("/img/yellow_line.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 300px;
+  background-position: 20px 80px;
+  text-shadow: 4px 4px 0 rgb(87, 87, 87);
+  font-family: Bangers;
+  font-size: 70px;
+  width: fit-content;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+.proj_div_text {
+  box-sizing: content-box;
+}
+.proj_content {
+  width: 100%;
+  height: auto;
+  margin-top: 50px;
+}
+.bg_circles {
+  margin-top: -770px;
+}
+.project {
+  background-color: rgb(209, 209, 209);
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  margin-bottom: 70px;
+}
+.map {
+  width: 75%;
+  opacity: 0.5;
+}
+
+.mail-form {
+  background-color: rgb(37, 37, 37);
+  width: 310px;
+  height: 400px;
+  float: right;
+  margin-top: -450px;
+  margin-right: 20px;
+}
+.lets_chat {
+  color: #f2f2f2;
+  widows: 100%;
+  text-align: center;
+  padding: 20px;
+  font-family: Bangers;
+  font-size: x-large;
+  box-sizing: content-box;
+  background-image: url("/img/yellow_line.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 90px;
+  background-position: center 45px;
+}
+.form {
+  padding: 0 25px;
+}
+
+.btn {
+  background-color: #ffee00;
+  border-radius: 20px;
+  font-size: small;
+  margin-top: 10px;
+  margin-right: 5px;
+  float: right;
+}
+::placeholder {
+  font-size: small;
+}
+
+@media only screen and (max-width: 1200px) {
+  #header {
+    height: 400px;
+    z-index: -1;
+  }
+}
+@media only screen and (max-width: 800px) {
+  #header {
+    height: 300px;
+  }
+  .junior-text {
+    font-size: small;
+    line-height: 14px;
+  }
+}
+@media only screen and (max-width: 600) {
+}
+@media only screen and (max-width: 375px) {
+}
