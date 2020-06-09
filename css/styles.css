@@ -79,16 +79,15 @@
   margin-top: -10px;
   padding-bottom: 5%;
 }
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
 .dots {
   padding-top: -10px;
 }
-.trait_desc_open {
-  font-size: 7pt;
-  text-align: justify;
-  width: 70%;
-  margin: 0 auto;
-  padding-bottom: 5%;
-}
+
 .pr_solv {
   width: 25px;
 }
@@ -140,7 +139,7 @@
   font-family: Bangers;
   font-size: 70px;
   z-index: 5;
-  margin-top: -100px;
+  margin-top: -70px;
   margin-bottom: 0;
   width: 100%;
 }
@@ -149,11 +148,19 @@
   margin: 0 auto;
 }
 .skills {
-  position: relative;
-  width: 70%;
+  /* position: relative; */
+  width: 550px;
   margin: 0 auto;
-  margin-top: 20px;
+  margin-top: 30px;
   height: 100px;
+}
+.more {
+  font-family: Bangers;
+  color: gray;
+  font-size: 15px;
+  width: 110px;
+  text-align: center;
+  padding-top: 3.5%;
 }
 .horiz_scroll {
   overflow-x: scroll;
@@ -162,10 +169,11 @@
 }
 .skill_pic {
   display: inline-block;
+  width: 90px;
+  text-align: center;
 }
 .skill_pic img {
   height: 60px;
-  margin-right: 15px;
 }
 .projects_text {
   color: #d3d3d3;
