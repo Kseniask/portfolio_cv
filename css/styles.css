@@ -41,7 +41,7 @@
 }
 
 #about_me {
-  height: 70vh;
+  height: 600px;
 }
 
 .rectangle {
@@ -248,89 +248,4 @@
 }
 ::placeholder {
   font-size: small;
-}
-
-@media only screen and (max-width: 1200px) {
-  #header {
-    height: 400px;
-    z-index: -1;
-  }
-}
-@media only screen and (max-width: 768px) {
-  #header {
-    height: 300px;
-  }
-  .junior-text {
-    font-size: small;
-    line-height: 14px;
-  }
-  .project {
-    width: 70px;
-    height: 70px;
-  }
-
-  .email_text {
-    margin-left: 0;
-    height: 370px !important;
-    width: 100% !important;
-  }
-  .subject {
-    padding-top: 1% !important;
-  }
-  .dots {
-    display: none;
-  }
-  .trait {
-    width: 100%;
-    margin-top: 20px;
-    height: 60px;
-  }
-  .trait img {
-    width: 20px;
-  }
-  .intro {
-    height: 70%;
-  }
-  .intro img {
-    width: 270px;
-  }
-}
-@media only screen and (max-width: 992px) {
-  .email_text {
-    height: 430px;
-    width: 85%;
-  }
-  .text_email {
-    width: 90%;
-  }
-  #about_me {
-    height: 500px !important;
-  }
-  .to {
-    padding-left: 1.5%;
-    padding-top: 5.5%;
-  }
-  .subject {
-    padding-left: 5.5%;
-    padding-top: 3.1%;
-  }
-  .project {
-    width: 200px;
-    height: 200px;
-  }
-  #email_form {
-    height: 400px;
-  }
-  #email_form img {
-    display: none !important;
-  }
-  .mail-form {
-    margin: 0;
-    display: inline-block;
-    width: 100%;
-  }
-}
-@media only screen and (max-width: 576px) {
-}
-@media only screen and (max-width: 375px) {
 }
