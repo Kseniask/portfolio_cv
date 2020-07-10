@@ -35,6 +35,9 @@
   margin: auto 0;
   padding: 9% 0 0 1%;
 }
+.jobtitle {
+  margin: 0;
+}
 .my_ph {
   width: 36%;
   padding-top: 4%;
@@ -42,6 +45,9 @@
 
 #about_me {
   height: 600px;
+}
+.about_me_title {
+  margin: 4% 0 2%;
 }
 
 .rectangle {
@@ -63,6 +69,7 @@
   font-weight: 900;
   color: rgb(49, 49, 49);
   line-height: 15px;
+  padding-bottom: 3%;
 }
 .trait_text {
   background-color: lightgray;
@@ -71,21 +78,20 @@
   position: absolute;
   margin-top: -6%;
 }
-.trait-desc {
+.trait_desc {
   font-size: 12pt;
   text-align: center;
   width: 70%;
   margin: 0 auto;
   margin-top: -10px;
   padding-bottom: 5%;
+  position: absolute;
+  z-index: 100;
 }
 .sticky {
   position: fixed;
   top: 0;
   width: 100%;
-}
-.dots {
-  padding-top: -10px;
 }
 
 .pr_solv {
@@ -107,7 +113,6 @@
 }
 .email_text {
   margin: 0 auto;
-  margin-top: 10%;
   background: url(/img/mail.png) center no-repeat;
   background-size: 100% 100%;
   color: rgb(202, 199, 199);
@@ -161,6 +166,7 @@
   width: 110px;
   text-align: center;
   padding-top: 3.5%;
+  position: relative;
 }
 .horiz_scroll {
   overflow-x: scroll;
@@ -180,8 +186,8 @@
   background-image: url("/img/yellow_line.png");
   background-repeat: no-repeat;
   background-position: bottom;
-  background-size: 300px;
-  background-position: 20px 80px;
+  background-size: 210px;
+  background-position: 20px 70px;
   text-shadow: 4px 4px 0 rgb(87, 87, 87);
   font-family: Bangers;
   font-size: 70px;

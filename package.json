@@ -1,0 +1,22 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kseniask/portfolio_cv.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kseniask/portfolio_cv/issues"
+  },
+  "homepage": "https://github.com/Kseniask/portfolio_cv#readme",
+  "dependencies": {
+    "jquery-visible": "^1.2.0"
+  }
+}
