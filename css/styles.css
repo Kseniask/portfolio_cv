@@ -10,7 +10,7 @@
 
 #header {
   height: 70vh;
-  background-image: url("/img/bg_triangle.png");
+  background-image: url("../img/bg_triangle.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -113,7 +113,7 @@
 }
 .email_text {
   margin: 0 auto;
-  background: url(/img/mail.png) center no-repeat;
+  background: url("../img/mail.png) center no-repeat");
   background-size: 100% 100%;
   color: rgb(202, 199, 199);
   height: 550px;
@@ -183,7 +183,7 @@
 }
 .projects_text {
   color: #d3d3d3;
-  background-image: url("/img/yellow_line.png");
+  background-image: url("../img/yellow_line.png");
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: 210px;
@@ -234,7 +234,7 @@
   font-family: Bangers;
   font-size: x-large;
   box-sizing: content-box;
-  background-image: url("/img/yellow_line.png");
+  background-image: url("../img/yellow_line.png");
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: 90px;
