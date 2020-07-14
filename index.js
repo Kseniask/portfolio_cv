@@ -1,22 +1,4 @@
 $(function () {
-  // $('.bxslider').bxSlider({
-  //   displaySlideQty: 3
-  //   // moveSlideQty: 1
-  // })
-  $(window).scroll = function () {
-    sticky_nav()
-  }
-  var navbar = $('.nav')
-  var sticky = navbar.offsetTop
-
-  function sticky_nav () {
-    if (window.pageYOffset >= sticky) {
-      navbar.addClass('sticky')
-    } else if (window.pageYOffset <= sticky && navbar.hasClass('sticky')) {
-      navbar.removeClass('sticky')
-    }
-  }
-
   $('.horiz_scroll').hover(
     function () {
       $(this).css('cursor', 'pointer')
