@@ -113,7 +113,7 @@
 }
 .email_text {
   margin: 0 auto;
-  background: url("../img/mail.png) center no-repeat");
+  background: url("../img/mail.png") center no-repeat;
   background-size: 100% 100%;
   color: rgb(202, 199, 199);
   height: 550px;
