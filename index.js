@@ -1,3 +1,4 @@
+import { TweenMax } from 'gsap'
 $(function () {
   // $('.bxslider').bxSlider({
   //   displaySlideQty: 3
