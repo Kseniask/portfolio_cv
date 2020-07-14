@@ -1,4 +1,3 @@
-
 $(function () {
   // $('.bxslider').bxSlider({
   //   displaySlideQty: 3
