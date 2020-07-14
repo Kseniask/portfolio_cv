@@ -11,6 +11,7 @@
   .junior-text {
     font-size: small;
     line-height: 14px;
+    padding-top: 0;
   }
   .project {
     width: 70px;
@@ -38,12 +39,6 @@
   }
   .trait img {
     width: 20px;
-  }
-  .intro {
-    height: 70%;
-  }
-  .intro img {
-    width: 250px;
   }
 }
 @media only screen and (max-width: 992px) {
@@ -80,16 +75,35 @@
     display: inline-block;
     width: 100%;
   }
+  .junior-text {
+    font-size: small;
+    line-height: 14px;
+    padding-top: 0;
+  }
+  .intro {
+    height: 70%;
+  }
+  .intro img {
+    width: 250px;
+    height: 185px;
+  }
+  #header {
+    height: 320px;
+  }
 }
 /* @media only screen and (max-width: ) {
   } */
 @media only screen and (max-width: 576px) {
-  .navbar-brand {
-    font-size: medium;
+  .intro {
+    height: 70%;
+    padding-top: 6%;
   }
   .intro img {
-    height: 180px;
-    width: 220px;
+    width: 230px;
+    height: 165px;
+  }
+  .navbar-brand {
+    font-size: medium;
   }
   #traits {
     margin-top: -50px;
