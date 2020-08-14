@@ -172,4 +172,23 @@ $(function () {
       //
     }
   }
+  $('.btn-connect').click(function (e) {
+    e.preventDefault()
+    console.log(text)
+    var text =
+      $('#msg').val() +
+      '\nName: ' +
+      $('#name').val() +
+      '\nEmail: ' +
+      $('#email').val()
+    Email.send({
+      Host: 'smtp.gmail.com',
+      Username: 'jobapplic23@gmail.com',
+      Password: 'Sendme23',
+      To: 'kseniask30@icloud.com',
+      From: 'jobapplic23@gmail.com',
+      Subject: 'Portfolio Connection',
+      Body: text
+    }).then(message => alert('mail sent successfully'))
+  })
 })

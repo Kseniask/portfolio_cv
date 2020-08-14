@@ -320,7 +320,7 @@
                     <p class="lets_chat">Let's chat</p>
                   </div>
                   <div class="container form">
-                    <form>
+                    <form method ="post">
 
                       <div class="input-group">
                         <div class="input-group-prepend">
@@ -336,10 +336,10 @@
                       <Input type="text" placeholder="Email" id="email" class="form-control"></Input>
                     </div>
                     <div class="input-group" style="margin-top: 20px">
-                      <textarea type="text" placeholder="Message" id="email" class="form-control" rows=4></textarea>
+                      <textarea type="text" placeholder="Message" id="msg" class="form-control" rows=4></textarea>
                     </div>
                     <div class=" button">
-                      <button type="submit" class="btn">Connect</button>
+                      <button type="submit" class="btn btn-connect"> Connect</button>
                     </div>
 
                     </form>
@@ -363,6 +363,8 @@
       integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
       crossorigin="anonymous"
     ></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script src="index.js"></script>
+    
   </body>
 </html>
