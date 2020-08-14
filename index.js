@@ -190,5 +190,8 @@ $(function () {
       Subject: 'Portfolio Connection',
       Body: text
     }).then(message => alert('mail sent successfully'))
+    $('#msg').val('')
+    $('#name').val('')
+    $('#email').val('')
   })
 })
