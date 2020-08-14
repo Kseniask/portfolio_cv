@@ -92,9 +92,25 @@ $(function () {
   $('.project').hover(
     function () {
       TweenMax.to($(this), 0.3, { scale: 1.2 })
+      // TweenMax.to($(this).children(0), 0.3, { opacity: 0.3 })
+      TweenMax.to(
+        $(this)
+          .children()
+          .children(),
+        0.3,
+        { opacity: 1 }
+      )
     },
     function () {
       TweenMax.to($(this), 0.3, { scale: 1 })
+      TweenMax.to($(this).children(0), 0.3, { opacity: 1 })
+      TweenMax.to(
+        $(this)
+          .children()
+          .children(),
+        0.3,
+        { opacity: 0 }
+      )
     }
   )
   function animateVisibile (el, func) {
