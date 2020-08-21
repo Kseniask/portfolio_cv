@@ -1,4 +1,5 @@
 # Portfolio Website
+Published: https://kseniask.github.io/portfolio_cv/ 
 
 Website build with HTML,CSS, Bootstrap 4, GSAP, JavaScript and jQuery</br>
 To catch the item being on the screen for animations, I used the library jquery.visible.
